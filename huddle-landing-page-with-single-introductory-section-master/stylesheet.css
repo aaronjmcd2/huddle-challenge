@@ -1,0 +1,170 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw;
+}
+
+button {
+  background-color: white;
+  border-radius: 6vw;
+  border: none;
+  box-shadow: 0px 15px 24px -5px rgba(0, 0, 0, 0.4);
+  color: hsl(257, 40%, 49%);
+  font-family: "Poppins", sans-serif;
+  font-size: 3.3vw;
+  margin-top: 5vw;
+  padding: 3vw 20vw 3vw 20vw;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #ee52cb;
+  color: white;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 6.2vw;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 4.1vw;
+  font-weight: 400;
+  line-height: 6.3vw;
+}
+
+#facebook-image {
+  margin-right: 0.2vw;
+  padding: 1vw;
+  width: 4.7vw;
+}
+
+#flex-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 17vw;
+}
+
+#logo {
+  margin-left: 7vw;
+  margin-top: 7.7vw;
+  width: 35vw;
+}
+
+#logo-image {
+  width: 100%;
+}
+
+#mockup-image {
+  width: 100%;
+}
+
+#mockups {
+  width: 78vw;
+}
+
+#social-flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vw;
+  margin-bottom: 10vw;
+}
+
+#text {
+  text-align: center;
+  color: white;
+  margin-top: 8vw;
+  width: 78vw;
+}
+
+.icons {
+  border-color: white;
+  border-width: 0.1vw;
+  border-style: solid;
+  border-radius: 10vw;
+  max-width: 6.5vw;
+}
+
+.icons:hover {
+  border-color: #ed52cc;
+  transition: 0.2s;
+}
+
+.social-icons {
+  margin-right: 2vw;
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  button {
+    border-radius: 6vw;
+    box-shadow: 0px 15px 24px -5px rgba(0, 0, 0, 0.4);
+    font-size: 1.2vw;
+    margin-top: 1vw;
+    padding: 1.1vw 5vw 1.1vw 5vw;
+  }
+
+  h1 {
+    font-size: 3vw;
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 1.3vw;
+    line-height: 2.3vw;
+  }
+
+  #facebook-image {
+    margin-right: 0.2vw;
+    padding: 0.4vw;
+    width: 1.7vw;
+  }
+
+  #flex-container {
+    flex-direction: row;
+    margin: 5vw 5vw 1vw 5vw;
+  }
+
+  #logo {
+    margin-left: 5vw;
+    margin-top: 5vw;
+    width: 15vw;
+  }
+
+  #mockups {
+    margin-right: 4vw;
+    width: 45vw;
+  }
+
+  #social-flex-container {
+    justify-content: right;
+    margin-right: 5vw;
+    margin-top: 3.7vw;
+    margin-bottom: 2vw;
+  }
+
+  #text {
+    text-align: left;
+    margin-top: 0vw;
+    width: 40vw;
+  }
+
+  .icons {
+    max-width: 2.5vw;
+  }
+
+  .social-icons {
+    margin-right: 1vw;
+  }
+}
